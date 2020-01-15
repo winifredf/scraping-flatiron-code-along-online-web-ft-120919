@@ -17,6 +17,6 @@ class Course
   end
   
   self.get_page.css(".post")
-end
+  end
  
 end
