@@ -15,5 +15,8 @@ class Course
   def self.reset_all
     @@all.clear
   end
+  
+  self.get_page.css(".post")
+end
  
 end
