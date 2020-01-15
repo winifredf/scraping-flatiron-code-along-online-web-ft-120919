@@ -16,6 +16,7 @@ class Course
     @@all.clear
   end
   
+  def get_courses
   self.get_page.css(".post")
   end
  
